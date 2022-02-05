@@ -1,0 +1,19 @@
+
+GET http://localhost:3000/movies/?search_actor_name=aamir&order_by=actress_name
+
+
+
+//So in the below http request if you click on the send request then another row will be added to the database
+
+POST http://localhost:3000/movies/
+Content-Type: application/json
+
+{
+    "movieName" : "Spider-Man: No Way Home" ,
+    "actorName" : "Tom Holland",
+    "actressName" : "Zendaya",
+    "directorName" : "Jon Watts",
+    "releaseDate" : 2021 
+}
+
+
